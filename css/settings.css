@@ -1,0 +1,89 @@
+/* ------------- */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+}
+body {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+    color: #4F4B4B;
+    /* font-family: 'Caveat', cursive; */
+    background-color: var(--color-white);
+}
+
+/* var */
+:root {
+    --color-red: #A74F41;
+    --color-white: #FAF8F5;
+    --color-grey: #717171;
+    --color-black: #302A2A;
+    --color-peach: #F1ECE9;
+}
+
+/* title */
+.title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 130%;
+    font-family: 'Manrope';
+    color: var(--color-black);
+  }  
+
+/* container */
+[class*="__container"]{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media (max-width: 991.98px) {
+    
+}
+
+@media (max-width: 767.98px) {
+    [class*="__container"] {
+        max-width: none;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 499.98px) {
+
+}
