@@ -65,31 +65,42 @@ body {
     font-family: 'Manrope';
     color: var(--color-black);
   }  
-
+  @media (max-width: 499.98px) {
+    .row__text {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 120%;
+    }
+    .title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 130%;
+    }
+  }
   /* button */
-.button--arrow {
+.button {
     padding: 14px 24px;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     text-transform: uppercase;
-    color: var(--color-peach);
-    background-color: var(--color-red);
     border-radius: 30px;
     cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
+    color: var(--color-red);
+    background-color: var(--color-peach);
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
-.button--arrow::after {
-    content: "";
-    display: flex;
-    width: 20px;
-    height: 20px;
-    background-image: url(../img/get-started/Arrow.svg);
-}
-.button--arrow:hover {
+.button:hover {
+    color: var(--color-peach);
     background-color: #944639;
 }
-
+.button:hover .arrow--red  path {
+    fill: var(--color-peach);
+}
+.arrow--red  path {
+    fill: var(--color-red);
+    transition: fill 0.3s ease-in-out;
+}
 /* container */
 [class*="__container"]{
     max-width: 1200px;
