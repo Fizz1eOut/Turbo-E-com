@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/settings.css">
     <link rel="stylesheet" href="./css/simplebar.css">
+    <link rel="stylesheet" href="./libs/modal/modal.css">
     <link rel="stylesheet" href="./css/style.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <title>Turbota E-com</title>
@@ -114,18 +115,66 @@
                                 
                             </ul>
                             <div class="cart-content__bottom">
-                                <div class="cart-content__row">
                                     <div class="cart-content__fullprice">
-                                        <span>Разом</span>
+                                        <span class="lng-together">Разом</span>
                                         <span class="fullprice">0 ₴</span>
                                     </div>
                                     <div class="cart-content__delivery">
-                                        <span>Доставка</span>
-                                        <span>за тарифом НП</span>
+                                        <span class="lng-delivery">Доставка</span>
+                                        <span class="lng-np">за тарифом НП</span>
+                                    </div>
+                                
+                                <button class="cart-content__btn btn button lng-cart-button" data-graph-path="modal" data-graph-animation="FadeInUp" data-graph-speed="300">Оформити замовлення</button>
+                
+                                <div class="modal">
+                                    <div class="modal__container order-modal" role="dialog" aria-modal="true" data-graph-target="modal">
+                                        <div class="modal-content order-modal__content">
+                                            <div class="order-modal__top">
+                                                <h2 class="order-modal__title">Оформление заказа</h2>
+                                                <span class="order-modal__number">Заказ № 3456</span>
+                                            </div>
+                                            <div class="order-modal__info">
+                                                <div class="order-modal__quantity order-modal__info-item">Кількість<span>3 шт</span></div>
+                                                <div class="order-modal__summ order-modal__info-item">Разом<span>568 789 ₽</span></div>
+                                                <div class="order-modal__products order-modal__info-item">
+                                                    <button class="order-modal__btn">Список бажань</button>
+                                                    <ul class="order-modal__list">
+                                                        <!-- <li class="order-modal__item">
+                                                            <article class="order-modal__product order-product">
+                                                                <img src="img/macbook.jpg" alt="" class="order-product__img">
+                                                                <div class="order-product__text">
+                                                                    <h3 class="order-product__title">Ноутбук Apple MacBook Pro 16 TB i7 2.6/16/512 SSD SG MVVJ2RU/A</h3>
+                                                                    <span class="order-product__price">190 789 ₽ </span>
+                                                                </div>
+                                                                <button class="order-product__delete">Удалить</button>
+                                                            </article>
+                                                        </li> -->
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <form action="#" class="order-modal__form order">
+                                                <input type="hidden">
+                                                <input type="hidden">
+                                                <input type="hidden">
+                                                <label class="order__label">
+                                                    <span class="order__text">Ім’я</span>
+                                                    <input type="text" name="Имя" class="order__input">
+                                                </label>
+                                                <label class="order__label">
+                                                    <span class="order__text">Номер телефону</span>
+                                                    <input type="tel" name="Телефон" class="order__input" placeholder="+38 (_ _ _) _ _ _  _ _  _ _">
+                                                </label>
+                                                <label class="order__label">
+                                                    <span class="order__text">Емейл</span>
+                                                    <input type="email" name="Email" class="order__input" placeholder="email@gmail.com">
+                                                </label>
+                                                <div class="order__button">
+                                                    <a href="" class="order__btn button">Оформить заказ</a>
+                                                </div>
+                                            </form>
+                                        </div>
                                     </div>
                                 </div>
-                                
-                                <button class="cart-content__btn btn button" data-graph-path="modal" data-graph-animation="FadeInUp" data-graph-speed="700">Оформити замовлення</button>
                             </div>
                         </div>
                     </div>
@@ -157,12 +206,12 @@
             <div class="products__container">
                 <div class="products__row row">
                     <div class="row__content">
-                        <div class="row__text">ДЛЯ ТВОГО ЗАТИШКУ</div>
-                        <h2 class="row__title title">УЛЮБЛЕНІ СВІЧКИ</h2>
+                        <div class="row__text lng-row-text">ДЛЯ ТВОГО ЗАТИШКУ</div>
+                        <h2 class="row__title title lng-row-title">УЛЮБЛЕНІ СВІЧКИ</h2>
                     </div>
                     
                     <div class="row__item">
-                        <button class="row__button button">До каталогу 
+                        <button class="row__button button lng-row-button">До каталогу 
                             <span>
                                 <svg class="arrow--red" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.66699 10.5892H16.0778L9.82783 16.8392L10.417 17.4284L17.6728 10.1726L10.417 2.91675L9.82783 3.50591L16.0778 9.75591H1.66699V10.5892Z" fill="#FAF8F5"/>
@@ -176,16 +225,16 @@
                             <article class="product">
                                 <div class="product__image">
                                     <img src="./img/porducts/01.png" alt="">
-                                    <button class="product__btn button">Добавить в корзину</button>
+                                    <button class="product__btn button lng-product-button">ДОДАТИ ДО КОШИКА</button>
                                 </div>
                                 <!-- <div class="items counter-wrapper">
                                     <div class="items__control" data-action="minus">-</div>
                                     <div class="items__current" data-counter>1</div>
                                     <div class="items__control" data-action="plus">+</div>
                                  </div> -->
-                                <div class="product__type">Свічки соєві</div>
+                                <div class="product__type lng-product-type">Свічки соєві</div>
                                 <h3 class="product__title">
-                                    <a href="">Дощ у Карпатах</a>
+                                    <a href="" class="lng-product-title"><span>Дощ у Карпатах</span></a>
                                 </h3>
                                 <div class="product__price product-price">
                                     <span class="product-price__current">400 ₴</span>
@@ -197,12 +246,12 @@
                         <article class="product">
                             <div class="product__image">
                                 <img src="./img/porducts/02.png" alt="">
-                                <button class="product__btn button">Добавить в корзину</button>
+                                <button class="product__btn button lng-product-button2">ДОДАТИ ДО КОШИКА</button>
                             </div>
                             
-                            <div class="product__type">Свічки соєві</div>
+                            <div class="product__type lng-product-type2">Свічки соєві</div>
                             <h3 class="product__title">
-                                <a href="">Гарбузовий пиріг</a>
+                                <a href="" class="lng-product-title2">Гарбузовий пиріг</a>
                             </h3>
                             <div class="product__price product-price">
                                 <span class="product-price__current">440 ₴</span>
@@ -214,12 +263,12 @@
                     <article class="product">
                         <div class="product__image">
                             <img src="./img/porducts/03.png" alt="">
-                            <button class="product__btn button">Добавить в корзину</button>
+                            <button class="product__btn button lng-product-button3">ДОДАТИ ДО КОШИКА</button>
                         </div>
                         
-                        <div class="product__type">Свічки соєві</div>
+                        <div class="product__type lng-product-type3">Свічки соєві</div>
                         <h3 class="product__title">
-                            <a href="">Опале листя</a>
+                            <a href="" class="lng-product-title3">Опале листя</a>
                         </h3>
                         <div class="product__price product-price">
                             <span class="product-price__current">350 ₴</span>
@@ -232,12 +281,12 @@
                 <article class="product">
                     <div class="product__image">
                         <img src="./img/porducts/04.png" alt="">
-                        <button class="product__btn button">Добавить в корзину</button>
+                        <button class="product__btn button lng-product-button4">ДОДАТИ ДО КОШИКА</button>
                     </div>
                     
-                    <div class="product__type">Свічки соєві</div>
+                    <div class="product__type lng-product-type4">Свічки соєві</div>
                     <h3 class="product__title">
-                       <a href="">Цукровий каштан</a>
+                       <a href="" class="lng-product-title4">Цукровий каштан</a>
                     </h3>
                     <div class="product__price product-price">
                         <span class="product-price__current">450 ₴</span>
@@ -253,11 +302,12 @@
 
     </footer>
 </body>
+    <script src="./js/simplebar.js"></script>
+    <script src="./libs/modal/modal.js"></script>
     <script src="./js/magic-line.js"></script>
     <script src="./js/burger.js"></script>
     <script src="./js/lang.js"></script>
     <script src="./js/app.js"></script>
-    <script src="./js/simplebar.js"></script>
     <script src="./js/cart.js"></script>
     <!-- <script src="./js/counter.js"></script> -->
 </html>
