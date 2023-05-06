@@ -94,13 +94,16 @@ body {
     color: var(--color-peach);
     background-color: #944639;
 }
+
 .button:hover .arrow--red  path {
     fill: var(--color-peach);
 }
 .arrow--red  path {
+    padding-top: 5px;
     fill: var(--color-red);
     transition: fill 0.3s ease-in-out;
 }
+
 /* container */
 [class*="__container"]{
     max-width: 1200px;

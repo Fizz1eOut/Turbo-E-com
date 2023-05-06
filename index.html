@@ -130,14 +130,14 @@
                                     <div class="modal__container order-modal" role="dialog" aria-modal="true" data-graph-target="modal">
                                         <div class="modal-content order-modal__content">
                                             <div class="order-modal__top">
-                                                <h2 class="order-modal__title">Оформление заказа</h2>
-                                                <span class="order-modal__number">Заказ № 3456</span>
+                                                <h2 class="order-modal__title lng-bodal-title">Оформление заказа</h2>
+                                                <span class="order-modal__number"><span class="lng-modal-number">Заказ</span> № 3456</span>
                                             </div>
                                             <div class="order-modal__info">
-                                                <div class="order-modal__quantity order-modal__info-item">Кількість<span>3 шт</span></div>
-                                                <div class="order-modal__summ order-modal__info-item">Разом<span>568 789 ₽</span></div>
+                                                <div class="order-modal__quantity order-modal__info-item lng-modal-quantity">Кількість<span>3 шт</span></div>
+                                                <div class="order-modal__summ order-modal__info-item lng-modal-sum">Разом<span>568 789 ₽</span></div>
                                                 <div class="order-modal__products order-modal__info-item">
-                                                    <button class="order-modal__btn">Список бажань</button>
+                                                    <button class="order-modal__btn lng-modal-button">Список бажань</button>
                                                     <ul class="order-modal__list">
                                                         <!-- <li class="order-modal__item">
                                                             <article class="order-modal__product order-product">
@@ -157,19 +157,19 @@
                                                 <input type="hidden">
                                                 <input type="hidden">
                                                 <label class="order__label">
-                                                    <span class="order__text">Ім’я</span>
+                                                    <span class="order__text lng-order-name">Ім’я</span>
                                                     <input type="text" name="Имя" class="order__input">
                                                 </label>
                                                 <label class="order__label">
-                                                    <span class="order__text">Номер телефону</span>
+                                                    <span class="order__text lng-order-phone">Номер телефону</span>
                                                     <input type="tel" name="Телефон" class="order__input" placeholder="+38 (_ _ _) _ _ _  _ _  _ _">
                                                 </label>
                                                 <label class="order__label">
-                                                    <span class="order__text">Емейл</span>
+                                                    <span class="order__text lng-order-email">Емейл</span>
                                                     <input type="email" name="Email" class="order__input" placeholder="email@gmail.com">
                                                 </label>
                                                 <div class="order__button">
-                                                    <a href="" class="order__btn button">Оформить заказ</a>
+                                                    <a href="" class="order__btn button"><span class="lng-order-btn">Оформити замовлення</span></a>
                                                 </div>
                                             </form>
                                         </div>
@@ -214,7 +214,7 @@
                         <button class="row__button button lng-row-button">До каталогу 
                             <span>
                                 <svg class="arrow--red" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.66699 10.5892H16.0778L9.82783 16.8392L10.417 17.4284L17.6728 10.1726L10.417 2.91675L9.82783 3.50591L16.0778 9.75591H1.66699V10.5892Z" fill="#FAF8F5"/>
+                                <path d="M1.66699 10.5892H16.0778L9.82783 16.8392L10.417 17.4284L17.6728 10.1726L10.417 2.91675L9.82783 3.50591L16.0778 9.75591H1.66699V10.5892Z" fill="#A74F41"/>
                                 </svg>
                             </span>
                         </button>
@@ -295,7 +295,107 @@
         </li>
 				</ul>
             </div>
+            <div class="info-content">
+                <div class="info-content__container">
+                    <div class="info-content__body">
+                        <div class="info-content__item lng-product-info-title">
+                            <h2 class="info-content__title">Аромати, що дійсно пахнуть при горінні та безкоштовне подарункове упакування</h2>
+                        </div>
+                        <div class="info-content__item">
+                            <p class="info-content__text lng-product-info-text1">У нашому асортименті бокси великі, середні та малі. Лише свічки, або ж комбінації з пряниками, гарбузиками, шоколадом чи медом. З вітальними листівками, червоною стрічкою та сертифікатом.</p>
+
+                            <p class="info-content__text lng-product-info-text2">Ти можеш сам обрати свій подарунковий бокс або замінити вже додану річ за своїми уподобаннями, просто вказавши побажання у коментарі до замовлення</p>
+                            <button class="info-content__button button"><span class="lng-product-info-button">До каталогу</span>
+                                <span>
+                                    <svg class="arrow--red" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.66699 10.5892H16.0778L9.82783 16.8392L10.417 17.4284L17.6728 10.1726L10.417 2.91675L9.82783 3.50591L16.0778 9.75591H1.66699V10.5892Z" fill="#A74F41"/>
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <section class="fragrance">
+                <div class="fragrance__body">
+                    <div class="fragrance__image">
+                        <img src="./img/fragrance/logo.png" alt="">
+                    </div>
+                        <div class="fragrance__content get-started__content">
+                            <div class="get-started__title">
+                                <span class="lng-fragrance-title1">Підбери </span>
+                                <div class="get-started__title--flex"><span class="lng-fragrance-text">ПРОЙДИ тест на аромат</span><div class="lng-fragrance-title2">свій</div></div>
+                                <span class="lng-fragrance-title3">аромат</span>
+                            </div>
+                            <p class="fragrance__text lng-fragrance-alert">Дай відповідь на кілька запитань і ми покажемо які аромати найбільше підійдуть саме тобі</p>
+                            <a href="#" class="get-started__button fragrance__button button lng-fragrance-btn">Розпочати тест</a>
+                        </div>
+                </div>
+                <div class="info-content">
+                    <div class="info-content__container">
+                        <div class="info-content__body">
+                            <div class="info-content__item">
+                                <h2 class="info-content__title lng-fragrance-info-title">Цікавлять корпоративні подарунки?Отримай пробний бокс безкоштовно!</h2>
+                            </div>
+                            <div class="info-content__item">
+                                <p class="info-content__text lng-fragrance-info-text1">Ми безкоштовно відправимо бокс, ти зможеш залишити свічки собі чи подарувати їх своїм працівникам.</p>
+
+                                <p class="info-content__text lng-fragrance-info-text2">Ти можеш сам обрати свій подарунковий бокс або замінити вже додану річ за своїми уподобаннями, просто вказавши побажання у коментарі до замовлення</p>
+                                <button class="info-content__button button"><span class="lng-fragrance-info-button">замовити бокс</span>
+                                    <span>
+                                        <svg class="arrow--red" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.66699 10.5892H16.0778L9.82783 16.8392L10.417 17.4284L17.6728 10.1726L10.417 2.91675L9.82783 3.50591L16.0778 9.75591H1.66699V10.5892Z" fill="#A74F41"/>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="showrooms">
+            <div class="showrooms__container">
+                <div class="showrooms__body">
+                    <div class="showrooms__image">
+                        <img src="./img/showrooms/logo.png" alt="">
+                    </div>
+
+                    <div class="showrooms__content">
+                        <div class="showrooms__row showrooms__row--fs">
+                            <h2 class="showrooms__title title lng-showrooms-title">ЗНАЙДИ НАС У ШОУРУМІ, У ТВОЄМУ МІСТІ</h2>
+                            <span class="showrooms__Addresses lng-showrooms-address">Адреси</span>
+                        </div>
+
+                        <div class="showrooms__row">
+                            <div class="showrooms__text lng-showrooms-text">Наша продукція представлена у 21 шоурумі</div>
+                            <button class="showrooms__button button"><span class="lng-showrooms-button">Всі міста</span>
+                                <span>
+                                    <svg class="arrow--red" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.66699 10.5892H16.0778L9.82783 16.8392L10.417 17.4284L17.6728 10.1726L10.417 2.91675L9.82783 3.50591L16.0778 9.75591H1.66699V10.5892Z" fill="#A74F41"/>
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+
+                        <div class="showrooms__row">
+                            <div class="showrooms__img img-showrooms">
+                                <img src="./img/showrooms/map1.png" alt="">
+                                <div class="img-showrooms__text lng-showrooms-text1">Дивитись адреси у Києві</div>
+                            </div>
+
+                            <div class="showrooms__img img-showrooms">
+                                <img src="./img/showrooms/map2.png" alt="">
+                                <div class="img-showrooms__text lng-showrooms-text2">Дивитись адреси у Львові</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
     </main>
 
     <footer class="footer">
