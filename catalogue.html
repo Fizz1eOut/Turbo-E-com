@@ -12,9 +12,11 @@
     <link rel="stylesheet" href="./css/simplebar.css">
     <link rel="stylesheet" href="./libs/modal/modal.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/catalogue.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <title>Turbota E-com</title>
 </head>
+
 <body>
     <header class="header">
         <div class="header__container">
@@ -186,328 +188,132 @@
     <main class="main">
         <section class="get-started">
             <div class="get-started__container">
-                <div class="get-started__content">
-                    <div class="get-started__title">
-                        <span class="lng-title1">теплий</span>
-                        <div class="get-started__title--flex"><span class="lng-started-text">СТВОРЮЄМО ЗАТИШОК</span><div class="lng-title2">ВОГНИК</div></div>
-                        <span class="lng-title3">турботи</span>
-                    </div>
-                    <a href="#" class="get-started__button button lng-started-button">до каталогу</a>
+                <div class="get-started__body">
+                    <div class="get-started__content">
+                        <h1 class="get-started__title">Любов у турботі</h1>
+                     </div>
+     
+                     <div class="get-started__image">
+                         <img src="./img/catalogue/Rectangle 108.png" alt="">
+                     </div>
                 </div>
-
-                
-            </div>
-            <div class="get-started__image">
-                <img src="./img/get-started/logo2.png" alt="">
             </div>
         </section>
 
-        <section class="products">
-            <div class="products__container">
-                <div class="products__row row">
-                    <div class="row__content">
-                        <div class="row__text lng-row-text">ДЛЯ ТВОГО ЗАТИШКУ</div>
-                        <h2 class="row__title title lng-row-title">УЛЮБЛЕНІ СВІЧКИ</h2>
+        <section class="catalog">
+            <div class="catalog__container">
+                <div class="catalog__body">
+                    <div class="catalog__filters filters">
+                        <div class="filters__content">
+                            <ul class="accordion__list">
+                                <li class="accordion">
+                                    <button class="accordion__control" aria-expanded="false">
+                                        <span class="accordion__title">Accordion 1</span>
+                                        <span class="accordion__icon"></span>
+                                    </button>
+                                    <div class="accordion__content" aria-hidden="true">
+                                        <h3>Lorem ipsum dolor sit amet.</h3>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, harum!</p>
+                                    </div>
+                                    <li class="accordion">
+                                        <button class="accordion__control" aria-expanded="false">
+                                            <span class="accordion__title">Accordion 2</span>
+                                            <span class="accordion__icon"></span>
+                                        </button>
+                                        <div class="accordion__content" aria-hidden="true">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, beatae!
+                                            Labore, tenetur. Id culpa quas, eos magnam quos laboriosam quasi.
+                                        </div>
+                                    </li>
+                                </li>
+                                <li class="accordion">
+                                    <button class="accordion__control" aria-expanded="false">
+                                        <span class="accordion__title">Accordion 2</span>
+                                        <span class="accordion__icon"></span>
+                                    </button>
+                                    <div class="accordion__content" aria-hidden="true">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, beatae!
+                                        Labore, tenetur. Id culpa quas, eos magnam quos laboriosam quasi.
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     
-                    <div class="row__item">
-                        <button class="row__button button lng-row-button">До каталогу 
-                            <span>
-                                <svg class="arrow--red" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1.66699 10.5892H16.0778L9.82783 16.8392L10.417 17.4284L17.6728 10.1726L10.417 2.91675L9.82783 3.50591L16.0778 9.75591H1.66699V10.5892Z" fill="#A74F41"/>
-                                </svg>
-                            </span>
-                        </button>
-                    </div>
-                </div>
-                <ul class="products__body">
-					<li class="products__item">
+                    <ul class="products__body">
+                        <li class="products__item">
+                                <article class="product">
+                                    <div class="product__image">
+                                        <img src="./img/porducts/01.png" alt="">
+                                        <button class="product__btn button lng-product-button">ДОДАТИ ДО КОШИКА</button>
+                                    </div>
+                                    <!-- <div class="items counter-wrapper">
+                                        <div class="items__control" data-action="minus">-</div>
+                                        <div class="items__current" data-counter>1</div>
+                                        <div class="items__control" data-action="plus">+</div>
+                                     </div> -->
+                                    <div class="product__type lng-product-type">Свічки соєві</div>
+                                    <h3 class="product__title">
+                                        <a href="" class="lng-product-title"><span>Дощ у Карпатах</span></a>
+                                    </h3>
+                                    <div class="product__price product-price">
+                                        <span class="product-price__current">400 ₴</span>
+                                    </div>
+                                </article>
+                        </li>
+    
+                        <li class="products__item">
                             <article class="product">
                                 <div class="product__image">
-                                    <img src="./img/porducts/01.png" alt="">
-                                    <button class="product__btn button lng-product-button">ДОДАТИ ДО КОШИКА</button>
+                                    <img src="./img/porducts/02.png" alt="">
+                                    <button class="product__btn button lng-product-button2">ДОДАТИ ДО КОШИКА</button>
                                 </div>
-                                <!-- <div class="items counter-wrapper">
-                                    <div class="items__control" data-action="minus">-</div>
-                                    <div class="items__current" data-counter>1</div>
-                                    <div class="items__control" data-action="plus">+</div>
-                                 </div> -->
-                                <div class="product__type lng-product-type">Свічки соєві</div>
+                                
+                                <div class="product__type lng-product-type2">Свічки соєві</div>
                                 <h3 class="product__title">
-                                    <a href="" class="lng-product-title"><span>Дощ у Карпатах</span></a>
+                                    <a href="" class="lng-product-title2">Гарбузовий пиріг</a>
                                 </h3>
                                 <div class="product__price product-price">
-                                    <span class="product-price__current">400 ₴</span>
+                                    <span class="product-price__current">440 ₴</span>
                                 </div>
                             </article>
-					</li>
-
+                    </li>
+    
                     <li class="products__item">
                         <article class="product">
                             <div class="product__image">
-                                <img src="./img/porducts/02.png" alt="">
-                                <button class="product__btn button lng-product-button2">ДОДАТИ ДО КОШИКА</button>
+                                <img src="./img/porducts/03.png" alt="">
+                                <button class="product__btn button lng-product-button3">ДОДАТИ ДО КОШИКА</button>
                             </div>
                             
-                            <div class="product__type lng-product-type2">Свічки соєві</div>
+                            <div class="product__type lng-product-type3">Свічки соєві</div>
                             <h3 class="product__title">
-                                <a href="" class="lng-product-title2">Гарбузовий пиріг</a>
+                                <a href="" class="lng-product-title3">Опале листя</a>
                             </h3>
                             <div class="product__price product-price">
-                                <span class="product-price__current">440 ₴</span>
+                                <span class="product-price__current">350 ₴</span>
                             </div>
                         </article>
                 </li>
-
+    
+    
                 <li class="products__item">
                     <article class="product">
                         <div class="product__image">
-                            <img src="./img/porducts/03.png" alt="">
-                            <button class="product__btn button lng-product-button3">ДОДАТИ ДО КОШИКА</button>
+                            <img src="./img/porducts/04.png" alt="">
+                            <button class="product__btn button lng-product-button4">ДОДАТИ ДО КОШИКА</button>
                         </div>
                         
-                        <div class="product__type lng-product-type3">Свічки соєві</div>
+                        <div class="product__type lng-product-type4">Свічки соєві</div>
                         <h3 class="product__title">
-                            <a href="" class="lng-product-title3">Опале листя</a>
+                           <a href="" class="lng-product-title4">Цукровий каштан</a>
                         </h3>
                         <div class="product__price product-price">
-                            <span class="product-price__current">350 ₴</span>
+                            <span class="product-price__current">450 ₴</span>
                         </div>
                     </article>
             </li>
-
-
-            <li class="products__item">
-                <article class="product">
-                    <div class="product__image">
-                        <img src="./img/porducts/04.png" alt="">
-                        <button class="product__btn button lng-product-button4">ДОДАТИ ДО КОШИКА</button>
-                    </div>
-                    
-                    <div class="product__type lng-product-type4">Свічки соєві</div>
-                    <h3 class="product__title">
-                       <a href="" class="lng-product-title4">Цукровий каштан</a>
-                    </h3>
-                    <div class="product__price product-price">
-                        <span class="product-price__current">450 ₴</span>
-                    </div>
-                </article>
-        </li>
-				</ul>
-            </div>
-            <div class="info-content">
-                <div class="info-content__container">
-                    <div class="info-content__body">
-                        <div class="info-content__item">
-                            <h2 class="info-content__title lng-product-info-title">Аромати, що дійсно пахнуть при горінні та безкоштовне подарункове упакування</h2>
-                        </div>
-                        <div class="info-content__item">
-                            <p class="info-content__text lng-product-info-text1">У нашому асортименті бокси великі, середні та малі. Лише свічки, або ж комбінації з пряниками, гарбузиками, шоколадом чи медом. З вітальними листівками, червоною стрічкою та сертифікатом.</p>
-
-                            <p class="info-content__text lng-product-info-text2">Ти можеш сам обрати свій подарунковий бокс або замінити вже додану річ за своїми уподобаннями, просто вказавши побажання у коментарі до замовлення</p>
-                            <button class="info-content__button button"><span class="lng-product-info-button">До каталогу</span>
-                                <span>
-                                    <svg class="arrow--red" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.66699 10.5892H16.0778L9.82783 16.8392L10.417 17.4284L17.6728 10.1726L10.417 2.91675L9.82783 3.50591L16.0778 9.75591H1.66699V10.5892Z" fill="#A74F41"/>
-                                    </svg>
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="fragrance">
-                <div class="fragrance__body">
-                    <div class="fragrance__image">
-                        <img src="./img/fragrance/logo.png" alt="">
-                    </div>
-                        <div class="fragrance__content get-started__content">
-                            <div class="get-started__title">
-                                <span class="lng-fragrance-title1">Підбери </span>
-                                <div class="get-started__title--flex"><span class="lng-fragrance-text">ПРОЙДИ тест на аромат</span><div class="lng-fragrance-title2">свій</div></div>
-                                <span class="lng-fragrance-title3">аромат</span>
-                            </div>
-                            <p class="fragrance__text lng-fragrance-alert">Дай відповідь на кілька запитань і ми покажемо які аромати найбільше підійдуть саме тобі</p>
-                            <a href="#" class="get-started__button fragrance__button button lng-fragrance-btn">Розпочати тест</a>
-                        </div>
-                </div>
-                <div class="info-content">
-                    <div class="info-content__container">
-                        <div class="info-content__body">
-                            <div class="info-content__item">
-                                <h2 class="info-content__title lng-fragrance-info-title">Цікавлять корпоративні подарунки?Отримай пробний бокс безкоштовно!</h2>
-                            </div>
-                            <div class="info-content__item">
-                                <p class="info-content__text lng-fragrance-info-text1">Ми безкоштовно відправимо бокс, ти зможеш залишити свічки собі чи подарувати їх своїм працівникам.</p>
-
-                                <p class="info-content__text lng-fragrance-info-text2">Ти можеш сам обрати свій подарунковий бокс або замінити вже додану річ за своїми уподобаннями, просто вказавши побажання у коментарі до замовлення</p>
-                                <button class="info-content__button button"><span class="lng-fragrance-info-button">замовити бокс</span>
-                                    <span>
-                                        <svg class="arrow--red" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M1.66699 10.5892H16.0778L9.82783 16.8392L10.417 17.4284L17.6728 10.1726L10.417 2.91675L9.82783 3.50591L16.0778 9.75591H1.66699V10.5892Z" fill="#A74F41"/>
-                                        </svg>
-                                    </span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </section>
-
-        <section class="showrooms">
-            <div class="showrooms__container">
-                <div class="showrooms__body">
-                    <div class="showrooms__image">
-                        <img src="./img/showrooms/logo.png" alt="">
-                    </div>
-
-                    <div class="showrooms__content">
-                        <div class="showrooms__row showrooms__row--fs">
-                            <h2 class="showrooms__title title lng-showrooms-title">ЗНАЙДИ НАС У ШОУРУМІ, У ТВОЄМУ МІСТІ</h2>
-                            <span class="showrooms__Addresses lng-showrooms-address">Адреси</span>
-                        </div>
-
-                        <div class="showrooms__row">
-                            <div class="showrooms__text lng-showrooms-text">Наша продукція представлена у 21 шоурумі</div>
-                            <button class="showrooms__button button"><span class="lng-showrooms-button">Всі міста</span>
-                                <span>
-                                    <svg class="arrow--red" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.66699 10.5892H16.0778L9.82783 16.8392L10.417 17.4284L17.6728 10.1726L10.417 2.91675L9.82783 3.50591L16.0778 9.75591H1.66699V10.5892Z" fill="#A74F41"/>
-                                    </svg>
-                                </span>
-                            </button>
-                        </div>
-
-                        <div class="showrooms__row">
-                            <div class="showrooms__img img-showrooms">
-                                <img src="./img/showrooms/map1.png" alt="">
-                                <div class="img-showrooms__text lng-showrooms-text1">Дивитись адреси у Києві</div>
-                            </div>
-
-                            <div class="showrooms__img img-showrooms">
-                                <img src="./img/showrooms/map2.png" alt="">
-                                <div class="img-showrooms__text lng-showrooms-text2">Дивитись адреси у Львові</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section class="categories">
-            <div class="categories__container">
-                <div class="categories__row row">
-                    <div class="row__content">
-                        <div class="row__text lng-row-text2">ШУКАТИ ЗА</div>
-                        <h2 class="row__title title lng-row-title2">КАТЕГОРІЯМИ</h2>
-                    </div>
-                    
-                    <div class="row__item">
-                        <button class="row__button button lng-row-button2">До каталогу 
-                            <span>
-                                <svg class="arrow--red" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1.66699 10.5892H16.0778L9.82783 16.8392L10.417 17.4284L17.6728 10.1726L10.417 2.91675L9.82783 3.50591L16.0778 9.75591H1.66699V10.5892Z" fill="#A74F41"/>
-                                </svg>
-                            </span>
-                        </button>
-                    </div>
-                </div>
-                <div class="categories__body">
-                    <a href="#" class="categories__item">
-                        <div class="categories__image">
-                            <img src="./img/categories/01.png" alt="">
-                        </div>
-                        <h3 class="categories__title lng-categories-title">Свічки соєві</h3>
-                    </a>
-
-                    <a href="#" class="categories__item">
-                        <div class="categories__image">
-                            <img src="./img/categories/02.png" alt="">
-                        </div>
-                        <h3 class="categories__title lng-categories-title2">Декор</h3>
-                    </a>
-
-                    <a href="#" class="categories__item">
-                        <div class="categories__image">
-                            <img src="./img/categories/03.png" alt="">
-                        </div>
-                        <h3 class="categories__title lng-categories-title3">подарунокві бокси</h3>
-                    </a>
-
-                    <a href="#" class="categories__item">
-                        <div class="categories__image">
-                            <img src="./img/categories/04.png" alt="">
-                        </div>
-                        <h3 class="categories__title lng-categories-title4">колекціі</h3>
-                    </a>
-
-                    <a href="#" class="categories__item">
-                        <div class="categories__image">
-                            <img src="./img/categories/05.png" alt="">
-                        </div>
-                        <h3 class="categories__title lng-categories-title5">Пасіка</h3>
-                    </a>
-                </div>
-            </div>
-        </section>
-        
-        <section class="interesting">
-            <div class="interesting__container">
-                <div class="interesting__row row">
-                    <div class="row__content">
-                        <div class="row__text lng-row-text3">ДЛЯ ТВОГО ЗАТИШКУ</div>
-                        <h2 class="row__title title lng-row-title3">ТАКОЖ БУДЕ ЦІКАВО</h2>
-                    </div>
-                    
-                    <div class="row__item">
-                        <button class="row__button button lng-row-button3">До каталогу 
-                            <span>
-                                <svg class="arrow--red" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1.66699 10.5892H16.0778L9.82783 16.8392L10.417 17.4284L17.6728 10.1726L10.417 2.91675L9.82783 3.50591L16.0778 9.75591H1.66699V10.5892Z" fill="#A74F41"/>
-                                </svg>
-                            </span>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="interesting__body">
-                    <div class="interesting__item">
-                        <div class="interesting__image">
-                            <img src="./img/interesting/01.png" alt="">
-                        </div>
-                        <div class="interesting__type lng-interesting-type1">Свічки соєві </div>
-                        <h3 class="interesting__title lng-interesting-title1">Бузок і Тюльпани</h3>
-                        <div class="interesting__price">₴ 440</div>
-                    </div>
-
-                    <div class="interesting__item">
-                        <div class="interesting__image">
-                            <img src="./img/interesting/02.png" alt="">
-                        </div>
-                        <div class="interesting__type lng-interesting-type2">Свічки соєві </div>
-                        <h3 class="interesting__title lng-interesting-title2">Львівська чоколяда</h3>
-                        <div class="interesting__price">₴ 440</div>
-                    </div>
-
-                    <div class="interesting__item">
-                        <div class="interesting__image">
-                            <img src="./img/interesting/03.png" alt="">
-                        </div>
-                        <div class="interesting__type lng-interesting-type3">Свічки соєві </div>
-                        <h3 class="interesting__title lng-interesting-title3">Сніданок у Львові</h3>
-                        <div class="interesting__price">₴ 440</div>
-                    </div>
-
-                    <div class="interesting__item">
-                        <div class="interesting__image">
-                            <img src="./img/interesting/04.png" alt="">
-                        </div>
-                        <div class="interesting__type lng-interesting-type4">Свічки соєві </div>
-                        <h3 class="interesting__title lng-interesting-title4">Лісова пісня</h3>
-                        <div class="interesting__price">₴ 440</div>
-                    </div>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -597,7 +403,6 @@
         </div>
     </footer>
 </body>
-
     <script src="./js/simplebar.js"></script>
     <script src="./libs/modal/modal.js"></script>
     <script src="./js/magic-line.js"></script>
@@ -605,5 +410,7 @@
     <script src="./js/lang.js"></script>
     <script src="./js/app.js"></script>
     <script src="./js/cart.js"></script>
+    <script src="./js/fixed-block.js"></script>
+    <script src="./js/accordion-anim.js"></script>
     <!-- <script src="./js/counter.js"></script> -->
 </html>

@@ -315,4 +315,170 @@ const langArr = {
         "en": "See addresses in Lviv",
         "ua": "Дивитись адреси у Львові",
     },
+    "row-title2": {
+        "ru": "КАТЕГОРИЯМИ",
+        "en": "CATEGORIES",
+        "ua": "КАТЕГОРІЯМИ",
+    },
+    "row-text2": {
+        "ru": "ИСКАТЬ ЗА",
+        "en": "SEARCH FOR",
+        "ua": "ШУКАТИ ЗА",
+    },
+    "row-button2": {
+        "ru": "К КАТАЛОГУ",
+        "en": "to the catalog",
+        "ua": "ДО КАТАЛОГУ",
+    },
+    "categories-title": {
+        "ru": "Свечи соевые",
+        "en": "soy candles",
+        "ua": "Свічки соєві",
+    },
+    "categories-title2": {
+        "ru": "Декор",
+        "en": "Decor",
+        "ua": "Декор",
+    },
+    "categories-title3": {
+        "ru": "подарочные боксы",
+        "en": "gift boxes",
+        "ua": "подарунокві бокси",
+    },
+    "categories-title4": {
+        "ru": "коллекции",
+        "en": "collections",
+        "ua": "колекціі",
+    },
+    "categories-title5": {
+        "ru": "Пасека",
+        "en": "Apiary",
+        "ua": "Пасіка",
+    },
+    "row-text3": {
+        "ru": "ДЛЯ ТВОЕГО УЮТА",
+        "en": "FOR YOUR COMFORT",
+        "ua": "ДЛЯ ТВОГО ЗАТИШКУ",
+    },
+    "row-title3": {
+        "ru": "ТАКЖЕ БУДЕТ ИНТЕРЕСНО",
+        "en": "WILL ALSO BE INTERESTING",
+        "ua": "ТАКОЖ БУДЕ ЦІКАВО",
+    },
+    "row-button3": {
+        "ru": "К КАТАЛОГУ",
+        "en": "to the catalog",
+        "ua": "ДО КАТАЛОГУ",
+    },
+    "interesting-type1": {
+        "ru": "Свечи соевые",
+        "en": "soy candles",
+        "ua": "Свічки соєві",
+    },
+    "interesting-type2": {
+        "ru": "Свечи соевые",
+        "en": "soy candles",
+        "ua": "Свічки соєві",
+    },
+    "interesting-type3": {
+        "ru": "Свечи соевые",
+        "en": "soy candles",
+        "ua": "Свічки соєві",
+    },
+    "interesting-type4": {
+        "ru": "Свечи соевые",
+        "en": "soy candles",
+        "ua": "Свічки соєві",
+    },
+    "interesting-title1": {
+        "ru": "Сирень и тюльпаны",
+        "en": "Lilac and tulips",
+        "ua": "Бузок і Тюльпани",
+    },
+    "interesting-title2": {
+        "ru": "Львовская чоколяда",
+        "en": "Lviv chocolate",
+        "ua": "Львівська чоколяда",
+    },
+    "interesting-title3": {
+        "ru": "Завтрак во Львове",
+        "en": "Breakfast in Lviv",
+        "ua": "Сніданок у Львові",
+    },
+    "interesting-title4": {
+        "ru": "Лесная песня",
+        "en": "forest song",
+        "ua": "Лісова пісня",
+    },
+    "footer-title1": {
+        "ru": "КАТЕГОРИИ",
+        "en": "CATEGORIES",
+        "ua": "КАТЕГОРІЇ",
+    },
+    "footer-link1": {
+        "ru": "Свечи соевые",
+        "en": "soy candles",
+        "ua": "Свічки соєві",
+    },
+    "footer-link2": {
+        "ru": "Пасека",
+        "en": "Apiary",
+        "ua": "Пасіка",
+    },
+    "footer-link3": {
+        "ru": "Декор",
+        "en": "Decor",
+        "ua": "Декор",
+    },
+    "footer-link4": {
+        "ru": "подарочные боксы",
+        "en": "gift boxes",
+        "ua": "подарунокві бокси",
+    },
+    "footer-title2": {
+        "ru": "КОРПОРАТИВНЫЕ ЗАКАЗ",
+        "en": "CORPORATE ORDER",
+        "ua": "КОРПОРАТИВНІ ЗАМОВЛЕННЯ",
+    },
+    "footer-link5": {
+        "ru": "Бесплатный бокс",
+        "en": "Free boxing",
+        "ua": "Безкоштовний бокс",
+    },
+    "footer-link6": {
+        "ru": "Сотрудничество",
+        "en": "Cooperation",
+        "ua": "Співпраця",
+    },
+    "footer-link7": {
+        "ru": "Индивидуальные заказы",
+        "en": "Individual orders",
+        "ua": "Індивідуальні замовлення",
+    },
+    "footer-link8": {
+        "ru": "Адреса шоурумов",
+        "en": "Showroom addresses",
+        "ua": "Адреси шоурумів",
+    },
+    "footer-title3": {
+        "ru": "Смотреть адреса во Львове",
+        "en": "See addresses in Lviv",
+        "ua": "Дивитись адреси у Львові",
+    },
+    "footer-title3": {
+        "ru": "КОНТАКТЫ",
+        "en": "CONTACTS",
+        "ua": "КОНТАКТИ",
+    },
+    "": {
+        "ru": "Смотреть адреса во Львове",
+        "en": "See addresses in Lviv",
+        "ua": "Дивитись адреси у Львові",
+    },
+    "": {
+        "ru": "Смотреть адреса во Львове",
+        "en": "See addresses in Lviv",
+        "ua": "Дивитись адреси у Львові",
+    },
+
 }
