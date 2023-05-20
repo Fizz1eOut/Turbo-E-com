@@ -1200,6 +1200,7 @@
     display: flex;
     align-items: center;
     gap: 8px;
+    max-width: 204px;
 }
 @media (max-width: 767.98px) {
     .info-content__body {
