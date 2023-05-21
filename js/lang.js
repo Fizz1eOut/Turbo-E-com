@@ -105,6 +105,124 @@ const langArr = {
         "en": "ADD TO CART",
         "ua": "ДОДАТИ ДО КОШИКА",
     }, 
+    "product-button5": {
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "en": "ADD TO CART",
+        "ua": "ДОДАТИ ДО КОШИКА",
+    }, 
+    "product-button6": {
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "en": "ADD TO CART",
+        "ua": "ДОДАТИ ДО КОШИКА",
+    }, 
+    "product-button7": {
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "en": "ADD TO CART",
+        "ua": "ДОДАТИ ДО КОШИКА",
+    }, 
+    "product-button8": {
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "en": "ADD TO CART",
+        "ua": "ДОДАТИ ДО КОШИКА",
+    }, 
+    "product-button9": {
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "en": "ADD TO CART",
+        "ua": "ДОДАТИ ДО КОШИКА",
+    }, 
+    "product-button10": {
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "en": "ADD TO CART",
+        "ua": "ДОДАТИ ДО КОШИКА",
+    }, 
+    "product-button11": {
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "en": "ADD TO CART",
+        "ua": "ДОДАТИ ДО КОШИКА",
+    }, 
+    "product-button12": {
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "en": "ADD TO CART",
+        "ua": "ДОДАТИ ДО КОШИКА",
+    }, 
+    "product-button13": {
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "en": "ADD TO CART",
+        "ua": "ДОДАТИ ДО КОШИКА",
+    }, 
+    
+    "product-link1": {
+        "ru": "Подробнее",
+        "en": "More details",
+        "ua": "Детальніше",
+    }, 
+    "product-link2": {
+        "ru": "Подробнее",
+        "en": "More details",
+        "ua": "Детальніше",
+    }, 
+    "product-link3": {
+        "ru": "Подробнее",
+        "en": "More details",
+        "ua": "Детальніше",
+    }, 
+    "product-button13": {
+        "ru": "Подробнее",
+        "en": "More details",
+        "ua": "Детальніше",
+    }, 
+    "product-link4": {
+        "ru": "Подробнее",
+        "en": "More details",
+        "ua": "Детальніше",
+    }, 
+    "product-link5": {
+        "ru": "Подробнее",
+        "en": "More details",
+        "ua": "Детальніше",
+    }, 
+    "product-link6": {
+        "ru": "Подробнее",
+        "en": "More details",
+        "ua": "Детальніше",
+    }, 
+    "product-link7": {
+        "ru": "Подробнее",
+        "en": "More details",
+        "ua": "Детальніше",
+    }, 
+
+    "product-link8": {
+        "ru": "Подробнее",
+        "en": "More details",
+        "ua": "Детальніше",
+    }, 
+    "product-link9": {
+        "ru": "Подробнее",
+        "en": "More details",
+        "ua": "Детальніше",
+    }, 
+    "product-link10": {
+        "ru": "Подробнее",
+        "en": "More details",
+        "ua": "Детальніше",
+    }, 
+    "product-link11": {
+        "ru": "Подробнее",
+        "en": "More details",
+        "ua": "Детальніше",
+    }, 
+    "product-link12": {
+        "ru": "Подробнее",
+        "en": "More details",
+        "ua": "Детальніше",
+    }, 
+    "product-link13": {
+        "ru": "Подробнее",
+        "en": "More details",
+        "ua": "Детальніше",
+    },
+
     "product-type": {
         "ru": "СВЕЧИ СОЕВЫЕ",
         "en": "SOY CANDLES",
@@ -121,6 +239,51 @@ const langArr = {
         "ua": "СВІЧКИ СОЄВІ",
     },
     "product-type4": {
+        "ru": "СВЕЧИ СОЕВЫЕ",
+        "en": "SOY CANDLES",
+        "ua": "СВІЧКИ СОЄВІ",
+    },
+    "product-type5": {
+        "ru": "СВЕЧИ СОЕВЫЕ",
+        "en": "SOY CANDLES",
+        "ua": "СВІЧКИ СОЄВІ",
+    },
+    "product-type6": {
+        "ru": "СВЕЧИ СОЕВЫЕ",
+        "en": "SOY CANDLES",
+        "ua": "СВІЧКИ СОЄВІ",
+    },
+    "product-type7": {
+        "ru": "СВЕЧИ СОЕВЫЕ",
+        "en": "SOY CANDLES",
+        "ua": "СВІЧКИ СОЄВІ",
+    },
+    "product-type8": {
+        "ru": "СВЕЧИ СОЕВЫЕ",
+        "en": "SOY CANDLES",
+        "ua": "СВІЧКИ СОЄВІ",
+    },
+    "product-type9": {
+        "ru": "СВЕЧИ СОЕВЫЕ",
+        "en": "SOY CANDLES",
+        "ua": "СВІЧКИ СОЄВІ",
+    },
+    "product-type10": {
+        "ru": "СВЕЧИ СОЕВЫЕ",
+        "en": "SOY CANDLES",
+        "ua": "СВІЧКИ СОЄВІ",
+    },
+    "product-type11": {
+        "ru": "СВЕЧИ СОЕВЫЕ",
+        "en": "SOY CANDLES",
+        "ua": "СВІЧКИ СОЄВІ",
+    },
+    "product-type12": {
+        "ru": "СВЕЧИ СОЕВЫЕ",
+        "en": "SOY CANDLES",
+        "ua": "СВІЧКИ СОЄВІ",
+    },
+    "product-type13": {
         "ru": "СВЕЧИ СОЕВЫЕ",
         "en": "SOY CANDLES",
         "ua": "СВІЧКИ СОЄВІ",
@@ -145,6 +308,56 @@ const langArr = {
         "en": "Sugar chestnut",
         "ua": "Цукровий каштан",
     }, 
+    "product-title5": {
+        "ru": "Крымская соль",
+        "en": "Crimean salt",
+        "ua": "Кримська сіль",
+    },
+    "product-title6": {
+        "ru": "Пани пион",
+        "en": "Mrs. Peony",
+        "ua": "Пані півонія",
+    },
+    "product-title7": {
+        "ru": "Свежескошенная трава",
+        "en": "Freshly cut grass",
+        "ua": "Свіжоскошена трава",
+    },
+    "product-title8": {
+        "ru": "Львовская чоколяда",
+        "en": "Lviv chocolate",
+        "ua": "Львівська чоколяда",
+    },
+    "product-title9": {
+        "ru": "Крымская соль",
+        "en": "Crimean salt",
+        "ua": "Кримська сіль",
+    },
+    "product-title10": {
+        "ru": "Лесная песня",
+        "en": "Forest Song",
+        "ua": "Лісова пісня",
+    },
+    "product-title11": {
+        "ru": "Тыквенный пирог",
+        "en": "Pumpkin pie",
+        "ua": "Гарбузовий пиріг",
+    },
+    "product-title12": {
+        "ru": "Сирень и тюльпаны",
+        "en": "Lilac and Tulips",
+        "ua": "Бузок і Тюльпани",
+    },
+    "product-title13": {
+        "ru": "Сахарный каштан",
+        "en": "Sugar chestnut",
+        "ua": "Цукровий каштан",
+    },
+    "show-more": {
+        "ru": "Показать еще",
+        "en": "Show more",
+        "ua": "Показати ще",
+    },
     "together": {
         "ru": "Разом",
         "en": "Together",
@@ -470,15 +683,125 @@ const langArr = {
         "en": "CONTACTS",
         "ua": "КОНТАКТИ",
     },
-    "": {
-        "ru": "Смотреть адреса во Львове",
-        "en": "See addresses in Lviv",
-        "ua": "Дивитись адреси у Львові",
+    "pages-link-home": {
+        "ru": "Головна >",
+        "en": "Home >",
+        "ua": "Главная >",
     },
-    "": {
-        "ru": "Смотреть адреса во Львове",
-        "en": "See addresses in Lviv",
-        "ua": "Дивитись адреси у Львові",
+    "pages-link-catalog": {
+        "ru": "Каталог >",
+        "en": "Catalog >",
+        "ua": "Каталог >",
+    },
+    "get-started-title": {
+        "ru": "ЛЮБОВЬ В ЗАБОТЕ",
+        "en": "LOVE IN CARE",
+        "ua": "ЛЮБОВ У ТУРБОТІ",
+    },
+    "filters-title": {
+        "ru": "Фильтры",
+        "en": "Filters",
+        "ua": "Фільтри",
     },
 
+    "accordion-title1": {
+        "ru": "Категории",
+        "en": "Categories",
+        "ua": "Категорії",
+    },
+    "accordion-title2": {
+        "ru": "Гнет",
+        "en": "Oppression",
+        "ua": "Гніт",
+    },
+    "accordion-title3": {
+        "ru": "Коллекции",
+        "en": "Collections",
+        "ua": "Колекції",
+    },
+    "accordion-title4": {
+        "ru": "Объем",
+        "en": "Volume",
+        "ua": "Об’єм",
+    },
+    "accordion-title5": {
+        "ru": "Цена",
+        "en": "Price",
+        "ua": "Ціна",
+    },
+    "checkbox-label1": {
+        "ru": "Свечи",
+        "en": "Candles",
+        "ua": "Свічки",
+    },
+    "checkbox-label2": {
+        "ru": "Керамика",
+        "en": "Ceramics",
+        "ua": "Кераміка",
+    },
+    "checkbox-label3": {
+        "ru": "Пасека",
+        "en": "Apiary",
+        "ua": "Пасіка",
+    },
+    "checkbox-label4": {
+        "ru": "Гастрономия",
+        "en": "Gastronomy",
+        "ua": "Гастрономія",
+    },
+    "checkbox-label5": {
+        "ru": "Подарочные боксы",
+        "en": "Gift boxes",
+        "ua": "Подарункові бокси",
+    },
+    "checkbox-label6": {
+        "ru": "Деревянный",
+        "en": "Wooden",
+        "ua": "Деревяний",
+    },
+    "checkbox-label7": {
+        "ru": "Хлопковый",
+        "en": "Cotton",
+        "ua": "Бавовняний",
+    },
+    "checkbox-label8": {
+        "ru": "Зимняя",
+        "en": "Winter",
+        "ua": "Зимова",
+    },
+    "checkbox-label9": {
+        "ru": "Осенняя",
+        "en": "Autumn",
+        "ua": "Осіння",
+    },
+    "checkbox-label10": {
+        "ru": "Внесезонная",
+        "en": "Off season",
+        "ua": "Позасезонна",
+    },
+    "checkbox-label11": {
+        "ru": "50мл",
+        "en": "50ml",
+        "ua": "50мл",
+    },
+    "checkbox-label12": {
+        "ru": "200мл",
+        "en": "200ml",
+        "ua": "200мл",
+    },
+    "checkbox-label13": {
+        "ru": "250мл",
+        "en": "250ml",
+        "ua": "250мл",
+    },
+    "checkbox-label14": {
+        "ru": "До ₴400",
+        "en": "Under ₴400",
+        "ua": "До ₴400",
+    },
+    "checkbox-label15": {
+        "ru": "До ₴200",
+        "en": "Under ₴200",
+        "ua": "До ₴200",
+    },
 }

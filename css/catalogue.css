@@ -257,7 +257,7 @@
     color: var(--color-black);
     cursor: pointer;
 }
-.checkbox__label span {
+.checkbox__label--greey {
     color: var(--color-greey);
 }
 .checkbox__label::before {
