@@ -160,7 +160,7 @@ const langArr = {
         "ru": "Подробнее",
         "en": "More details",
         "ua": "Детальніше",
-    }, 
+    },
     "product-link3": {
         "ru": "Подробнее",
         "en": "More details",
@@ -693,6 +693,16 @@ const langArr = {
         "en": "Catalog >",
         "ua": "Каталог >",
     },
+    "pages-link-candles": {
+        "ru": "Свечи соевые >",
+        "en": "Soy candles >",
+        "ua": "Свічки соєві >",
+    },
+    "pages-link-sugar": {
+        "ru": "Сахарный каштан",
+        "en": "Sugar chestnut",
+        "ua": "Цукровий каштан",
+    },
     "get-started-title": {
         "ru": "ЛЮБОВЬ В ЗАБОТЕ",
         "en": "LOVE IN CARE",
@@ -803,5 +813,105 @@ const langArr = {
         "ru": "До ₴200",
         "en": "Under ₴200",
         "ua": "До ₴200",
+    },
+    "product-availability": {
+        "ru": "Есть в наличие",
+        "en": "In stock",
+        "ua": "Є в наявності",
+    },
+    "product-text1": {
+        "ru": "Аромат Каштана на ярмарке. Изящная смесь цитрусовых, мускуса и землистых оттенков бергамота и амбри. Аромат бодр и успокаивающий. Деревянный фитиль, потрескивающий при горении, как камин, и необычайный аромат, наполняющий всю комнату.",
+        "en": "The aroma of Chestnut at the fair. A subtle blend of citrus, musk and earthy notes of bergamot and amber. The aroma is invigorating and soothing. A wooden wick that crackles when burning, like a fireplace, and an extraordinary aroma that fills the entire room.",
+        "ua": "Аромат Каштану на ярмарку. Витончена суміш цитрусових, мускусу та землістих відтінків бергамоту та амбрі. Аромат бодрий та заспокійливий. Дерев'яний гніт, що потріскує при горінні, мов камін, та надзвичайний аромат, що наповнює всю кімнату.",
+    },
+    "item-product-text1": {
+        "ru": "250 мл",
+        "en": "250 ml",
+        "ua": "250 мл",
+    },
+    "item-product-title1": {
+        "ru": "Доступные объемы",
+        "en": "Available volumes",
+        "ua": "Доступні об’єми",
+    },
+    "item-product-title2": {
+        "ru": "Тип крышки",
+        "en": "Cover type",
+        "ua": "Тип кришки",
+    },
+    "item-product-text2": {
+        "ru": "Деревянная",
+        "en": "Wooden",
+        "ua": "Дерев’яна",
+    },
+    "product-bottom-button": {
+        "ru": "ДОБАВИТЬ В КОРЗИНУ",
+        "en": "ADD TO CART",
+        "ua": "ДОДАТИ ДО КОШИКА",
+    },
+    "accordion-title1": {
+        "ru": "Описание",
+        "en": "Description",
+        "ua": "Опис",
+    },
+    "accordion-title2": {
+        "ru": "Отзывы (0)",
+        "en": "Reviews (0)",
+        "ua": "Відгуки (0)",
+    },
+    "accordion-title3": {
+        "ru": "Как использовать",
+        "en": "How to use",
+        "ua": "Як використовувати",
+    },
+    "accordion-text1": {
+        "ru": "Изящная смесь цитрусовых, мускуса и землистых оттенков бергамота и амбри. Аромат бодр и успокаивающий. Деревянный фитиль, потрескивающий при горении, как камин, и необычайный аромат, наполняющий всю комнату.",
+        "en": "A subtle blend of citrus, musk and earthy notes of bergamot and amber. The aroma is invigorating and soothing. A wooden wick that crackles when burning, like a fireplace, and an extraordinary aroma that fills the entire room.",
+        "ua": "Витончена суміш цитрусових, мускусу та землістих відтінків бергамоту та амбрі. Аромат бодрий та заспокійливий. Дерев'яний гніт, що потріскує при горінні, мов камін, та надзвичайний аромат, що наповнює всю кімнату.",
+    },
+    "accordion-text2": {
+        "ru": "Всегда дайте свече догореть до краев, чтобы не образовать кратер, свеча должна гореть не дольше 4 часов. На все свечи действует гарантия, при возникновении любых вопросов обращайтесь к нам.",
+        "en": "Always let the candle burn down to the edges to avoid a crater, the candle should burn no longer than 4 hours. All candles have a warranty, if you have any questions, please contact us.",
+        "ua": "Завжди дайте свічці догоріти до країв, щоб не утворити кратер, свічка повинна горіти не довше, аніж 4 години. На усі свічки діє гарантія, при виникненні будь-яких питань, звертайтесь до нас.",
+    },
+    "accordion-version1": {
+        "ru": "- 30 часов горения",
+        "en": "— 30 hours of burning",
+        "ua": "— 30 годин горіння",
+    },
+    "accordion-version2": {
+        "ru": "— Деревянный фитиль и крышечка",
+        "en": "— Wooden wick and lid",
+        "ua": "— Дерев’яний гніт та кришечка",
+    },
+    "accordion-version3": {
+        "ru": "- Чрезвычайная аромаотдача",
+        "en": "— Extraordinary aroma output",
+        "ua": "— Надзвичайна аромавіддача",
+    },
+    "accordion-version4": {
+        "ru": "- 100% натуральный соевый воск, не парафин",
+        "en": "— 100% natural soy wax, not paraffin",
+        "ua": "— 100% натуральний соєвий віск, не парафін",
+    },
+    "response-form-title": {
+        "ru": "Оставьте ваш отзыв",
+        "en": "Leave your feedback",
+        "ua": "Залиште ваш відгук",
+    },
+    "response-form-label": {
+        "ru": "Сохранить мое имя, e-mail и адрес сайта в этом браузере для дальнейших комментариев.",
+        "en": "Save my name, e-mail, and website address in this browser for my future comments.",
+        "ua": "Зберегти моє ім'я, e-mail, та адресу сайту в цьому браузері для моїх подальших коментарів.",
+    },
+    "response-form-button": {
+        "ru": "Отправить",
+        "en": "Send",
+        "ua": "Надіслати",
+    },
+    "footer-copiryght": {
+        "ru": "© 2022 Мастерская Заботы. Все права защищены.",
+        "en": "© 2022 Caring Workshop. All rights reserved.",
+        "ua": "© 2022 Майстерня Турботи. Всі права захищено.",
     },
 }
