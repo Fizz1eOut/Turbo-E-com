@@ -914,4 +914,31 @@ const langArr = {
         "en": "© 2022 Caring Workshop. All rights reserved.",
         "ua": "© 2022 Майстерня Турботи. Всі права захищено.",
     },
+
+    "pages-link-carpathians": {
+        "ru": "Дождь в Карпатах",
+        "en": "Ain in the Carpathians",
+        "ua": "Дощ у Карпатах",
+    },
+    "pages-link-pumpkin": {
+        "ru": "Тыквенный пирог",
+        "en": "Pumpkin pie",
+        "ua": "Гарбузовий пиріг",
+    },
+    "pages-link-leaves": {
+        "ru": "Опавшие листья",
+        "en": "Fallen leaves",
+        "ua": "Опале листя",
+    },
+    "": {
+        "ru": "Тыквенный пирог",
+        "en": "Pumpkin pie",
+        "ua": "Гарбузовий пиріг",
+    },
+    "": {
+        "ru": "Тыквенный пирог",
+        "en": "Pumpkin pie",
+        "ua": "Гарбузовий пиріг",
+    },
+
 }

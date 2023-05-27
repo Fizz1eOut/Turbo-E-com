@@ -20,8 +20,6 @@ function changeLanguage() {
         location.reload();
     }
     select.value = hash;
-    // document.querySelector('title').innerHTML = langArr['unit'][hash];
-    // document.querySelector('.lng-chip').innerHTML = langArr['chip'][hash];
     for (let key in langArr) {
         let elem = document.querySelector('.lng-' + key);
         if (elem) {
