@@ -1,8 +1,8 @@
 const langArr = {
-    "shop" :  {
-        "ru": "Магазин",
-        "en": "Shop",
-        "ua": "Магазин",
+    "home" :  {
+        "ru": "Главная",
+        "en": "Home",
+        "ua": "Головна",
     }, 
     "collections": {
         "ru": "Коллекции",

@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="UA">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/settings.css">
+    <link rel="stylesheet" href="./css/simplebar.css">
+    <link rel="stylesheet" href="./libs/modal/modal.css">
+    <link rel="stylesheet" href="./css/сorporate-orders.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <title>Turbota E-com - Корпоративні замовлення</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__body">
+                <div class="header__logo">
+                    <button class="burger" data-burger aria-label="Открыть меню" aria-expanded="false">
+                        <span class="burger__line"></span>
+                    </button>
+                    <img src="./img/header/Logo.png" alt="">
+                    <svg class="header__logo--mobile" width="32" height="42" viewBox="0 0 32 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.86311 0.625591C7.21267 1.87098 6.09333 2.74613 4.76428 3.04863L4.21438 3.17378L4.18918 6.1652L4.16387 9.15661L2.1329 9.18223C0.257979 9.20586 0.0756566 9.09038 0.0239934 9.2515C-0.00677447 9.34752 -0.00919112 9.68779 0.023973 9.77338C0.0772656 9.91077 0.344532 9.86826 2.10309 9.86826C3.83146 9.86826 4.1031 9.88819 4.15361 10.0184C4.18563 10.1009 4.2118 14.2873 4.2118 19.3213C4.2118 27.2851 4.23144 28.5692 4.36305 29.2055C4.74328 31.0449 5.78249 32.1529 7.4569 32.5043C9.32626 32.8965 11.1927 32.4067 12.2683 31.2418L12.7425 30.7282V31.3788C12.7425 34.24 13.7867 36.7624 15.8518 38.889C17.094 40.1682 18.3606 40.9439 20 41.4293C20.6753 41.6293 21.1091 41.6879 22.1931 41.726C23.7241 41.7797 24.3478 41.6864 26.2258 41.1226C27.5822 40.7153 28.1371 40.7139 28.6701 41.1163C29.3473 41.6277 29.3245 41.7231 29.3245 38.3819C29.3245 34.8822 29.2654 34.6915 28.7438 36.5078C28.2854 38.1045 27.8129 38.9923 26.984 39.8139C25.8391 40.9489 24.6594 41.3661 22.586 41.3692C20.5668 41.3721 19.2699 40.9307 18.2333 39.8878C17.2397 38.8883 16.5203 37.1518 16.1743 34.9185C15.9737 33.624 16.0105 28.7675 16.2299 27.5647C16.8963 23.9123 18.4804 21.9652 21.1799 21.4804C22.1137 21.3127 23.5023 21.3577 24.3395 21.5826C26.4781 22.1573 27.8277 23.7752 28.5581 26.6396C28.6203 26.8836 28.7162 27.0428 28.8011 27.0428C28.9207 27.0428 28.9411 26.6358 28.9411 24.2437C28.9411 21.1213 28.9521 21.1653 28.3108 21.7227C27.8044 22.1629 27.318 22.1877 26.2938 21.8257C23.9041 20.9809 24.1247 21.0283 22.615 21.0354C21.1312 21.0425 20.3823 21.1799 19.1551 21.6706C17.6747 22.2626 16.0018 23.5616 14.9416 24.9425C14.3204 25.7517 13.4791 27.4472 13.2167 28.4187C12.9374 29.4533 12.7017 29.9032 12.1466 30.4614C11.462 31.1499 11.0184 31.3541 10.2024 31.3565C9.44224 31.3586 9.10417 31.1981 8.83167 30.7057C8.68176 30.4348 8.66681 29.6043 8.64313 20.2702C8.62425 12.7847 8.64611 10.0949 8.72681 9.99864C8.81413 9.89445 9.31533 9.86826 11.2205 9.86826H13.6051V9.53777V9.20728L11.137 9.18194L8.66882 9.15661L8.6439 4.5783L8.61908 0L8.40428 0.00037934C8.23683 0.000664002 8.11778 0.138156 7.86311 0.625591Z" fill="#302A2A"/>
+                    </svg>
+                </div>
+
+                <nav class="header__nav nav" data-nav>
+                    <span class="nav__line"></span>
+                    <ul class="nav__list">
+
+                        <li class="nav__item">
+                            <a href="./index.html" class="nav__link lng-home">Главная</a>
+                            <!-- <button class="nav__link--btn nav__link lng-shop">Магазин</button>
+                            <div class="dropdown">
+                                <ul class="dropdown__list">
+                                    <li class="dropdown__item">
+                                        <a href="#" class="dropdown__link lng-collections">Колекції</a>
+                                    </li>
+
+                                    <li class="dropdown__item">
+                                        <a href="#" class="dropdown__link lng-сandles">Свічки соєві</a>
+                                    </li>
+
+                                    <li class="dropdown__item">
+                                        <a href="#" class="dropdown__link lng-apiary">Пасіка</a>
+                                    </li>
+
+                                    <li class="dropdown__item">
+                                        <a href="#" class="dropdown__link lng-decor">Декор</a>
+                                    </li>
+
+                                    <li class="dropdown__item">
+                                        <a href="#" class="dropdown__link lng-gifts">Подарункові бокси</a>
+                                    </li>
+                                </ul>
+                            </div> -->
+                        </li>
+                        
+                      <li class="nav__item"><a href="./сorporate-orders.html" class="nav__link lng-order">Корпоративні замовлення</a></li>
+                      <li class="nav__item"><a href="" class="nav__link lng-contacts">Контакти</a></li>
+
+                      <li class="nav__item"><a href="" class="nav__link lng-account">Аккаунт</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header__icons">
+                    <div class="header__translation">
+                        <select class="change-lang">
+                            <option value="ua">UA</option>
+                            <option value="ru" selected>RU</option>
+                            <option value="en">EN</option>
+                        </select>
+                    </div>
+
+                    <div class="header__search">
+                        <div class="search-box">
+                            <input class="search-input lng-search-input" type="text" name="" placeholder="Я шукаю">
+                            <a href="#" class="search-btn">
+                              <!-- <i class="fas fa-search"></i> -->
+                              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.0303 16.9697C17.7374 16.6768 17.2626 16.6768 16.9697 16.9697C16.6768 17.2626 16.6768 17.7374 16.9697 18.0303L18.0303 16.9697ZM23.9697 25.0303C24.2626 25.3232 24.7374 25.3232 25.0303 25.0303C25.3232 24.7374 25.3232 24.2626 25.0303 23.9697L23.9697 25.0303ZM11.6667 19.0833C7.57055 19.0833 4.25 15.7628 4.25 11.6667H2.75C2.75 16.5912 6.74213 20.5833 11.6667 20.5833V19.0833ZM19.0833 11.6667C19.0833 15.7628 15.7628 19.0833 11.6667 19.0833V20.5833C16.5912 20.5833 20.5833 16.5912 20.5833 11.6667H19.0833ZM11.6667 4.25C15.7628 4.25 19.0833 7.57055 19.0833 11.6667H20.5833C20.5833 6.74213 16.5912 2.75 11.6667 2.75V4.25ZM11.6667 2.75C6.74213 2.75 2.75 6.74213 2.75 11.6667H4.25C4.25 7.57055 7.57055 4.25 11.6667 4.25V2.75ZM16.9697 18.0303L23.9697 25.0303L25.0303 23.9697L18.0303 16.9697L16.9697 18.0303Z" fill="#302A2A"/>
+                            </svg>
+                            </a>     
+                          </div>
+                    </div>
+
+                    <div class="header__icon">
+                        <img src="./img/header/01.svg" alt="">
+                    </div>
+
+                    <div class="header__icon">
+                        <img src="./img/header/02.svg" alt="">
+                    </div>
+
+                    <div class="header__cart cart" tabindex="0">
+                        <div class="cart__text">
+                            <img src="./img/header/03.svg" alt="">
+                            <span class="cart__quantity">0</span>
+                        </div>
+                        <div class="cart-content">
+                            <ul class="cart-content__list" data-simplebar>
+                                <!-- <li class="cart-content__item">
+                                    <article class="cart-content__product cart-product">
+                                        <img src="./img/porducts/01.png" alt="" class="cart-product__img">
+                                        <div class="cart-product__text">
+                                            <h3 class="cart-product__title">Ноутбук Apple MacBook Pro 16 TB i7 2.6/16/512 SSD SG MVVJ2RU/A</h3>
+                                            <span class="cart-product__price">190 789 ₽</span>
+                                        </div>
+                                        <button class="cart-product__delete" aria-label="Удалить товар"></button>
+                                    </article>
+                                </li> -->
+                                
+                            </ul>
+                            <div class="cart-content__bottom">
+                                    <div class="cart-content__fullprice">
+                                        <span class="lng-together">Разом</span>
+                                        <span class="fullprice">0 ₴</span>
+                                    </div>
+                                    <div class="cart-content__delivery">
+                                        <span class="lng-delivery">Доставка</span>
+                                        <span class="lng-np">за тарифом НП</span>
+                                    </div>
+                                
+                                <button class="cart-content__btn btn button lng-cart-button" data-graph-path="modal" data-graph-animation="FadeInUp" data-graph-speed="300">Оформити замовлення</button>
+                
+                                <div class="modal">
+                                    <div class="modal__container order-modal" role="dialog" aria-modal="true" data-graph-target="modal">
+                                        <div class="modal-content order-modal__content">
+                                            <div class="order-modal__top">
+                                                <h2 class="order-modal__title lng-bodal-title">Оформление заказа</h2>
+                                                <span class="order-modal__number"><span class="lng-modal-number">Заказ</span> № 3456</span>
+                                            </div>
+                                            <div class="order-modal__info">
+                                                <div class="order-modal__quantity order-modal__info-item lng-modal-quantity">Кількість<span>3 шт</span></div>
+                                                <div class="order-modal__summ order-modal__info-item lng-modal-sum">Разом<span>568 789 ₽</span></div>
+                                                <div class="order-modal__products order-modal__info-item">
+                                                    <button class="order-modal__btn lng-modal-button">Список бажань</button>
+                                                    <ul class="order-modal__list">
+                                                        <!-- <li class="order-modal__item">
+                                                            <article class="order-modal__product order-product">
+                                                                <img src="img/macbook.jpg" alt="" class="order-product__img">
+                                                                <div class="order-product__text">
+                                                                    <h3 class="order-product__title">Ноутбук Apple MacBook Pro 16 TB i7 2.6/16/512 SSD SG MVVJ2RU/A</h3>
+                                                                    <span class="order-product__price">190 789 ₽ </span>
+                                                                </div>
+                                                                <button class="order-product__delete">Удалить</button>
+                                                            </article>
+                                                        </li> -->
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <form action="#" class="order-modal__form order">
+                                                <input type="hidden">
+                                                <input type="hidden">
+                                                <input type="hidden">
+                                                <label class="order__label">
+                                                    <span class="order__text lng-order-name">Ім’я</span>
+                                                    <input type="text" name="Имя" class="order__input">
+                                                </label>
+                                                <label class="order__label">
+                                                    <span class="order__text lng-order-phone">Номер телефону</span>
+                                                    <input type="tel" name="Телефон" class="order__input" placeholder="+38 (_ _ _) _ _ _  _ _  _ _">
+                                                </label>
+                                                <label class="order__label">
+                                                    <span class="order__text lng-order-email">Емейл</span>
+                                                    <input type="email" name="Email" class="order__input" placeholder="email@gmail.com">
+                                                </label>
+                                                <div class="order__button">
+                                                    <a href="" class="order__btn button"><span class="lng-order-btn">Оформити замовлення</span></a>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="get-started">
+            <div class="get-started__container">
+                <div class="get-started__content">
+                    <h1 class="get-started__title">
+                        Отримай пробний бокс безкоштовно
+                    </h1>
+                    <p class="get-started__text">Ми оплатимо доставку!  Отримайте готовий подарунок для Ваших працівників чи клієнтів</p>
+                    <a href="#" class="get-started__button button">ОТРИМАТИ БОКС</a>
+                </div>
+
+            </div>
+            <div class="get-started__image">
+                <!-- <img src="./img/corporate-orders/logo.png" alt=""> -->
+            </div>
+        </section>
+
+        <section class="statistics">
+            <div class="statistics__container">
+                <div class="statistics__header">
+                    <h2 class="statistics__title">МОЖЛИВО ВАМ ПОТРІБНЕ</h2>
+                    <h3 class="statistics__subtitle title">КОРПОРАТИВНЕ ЗАМОВЛЕННЯ?</h3>
+                </div>
+                <div class="statistics__body">
+                    <div class="statistics__top top-statistics">
+                        <div class="top-statistics__items">
+                            <div class="top-statistics__item">
+                                <div class="top-statistics__icon">
+                                    <img src="./img/corporate-orders/01.svg" alt="">
+                                </div>
+                                <div class="top-statistics__content">
+                                    <h3 class="top-statistics__title">Встигнемо до потрібної дати</h3>
+                                    <p class="top-statistics__text">
+                                        У 90% випадків виготовляємо корпоративне замовлення навіть раніше потрібного терміну.
+                                    </p>
+                                </div>
+                            </div>
+
+                            
+                            <div class="top-statistics__item">
+                                <div class="top-statistics__icon">
+                                    <img src="./img/corporate-orders/02.svg" alt="">
+                                </div>
+                                <div class="top-statistics__content">
+                                    <h3 class="top-statistics__title">Підберемо усі складові</h3>
+                                    <p class="top-statistics__text">
+                                        Скажіть нам очікуваний бюджет та кількість боксів. Магія! Вам тепер не потрібно довго рахувати  та підбирати складники. 
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="top-statistics__item">
+                                <div class="top-statistics__icon">
+                                    <img src="./img/corporate-orders/03.svg" alt="">
+                                </div>
+
+                                <div class="top-statistics__content">
+                                    <h3 class="top-statistics__title">Усі клопоти - наша справа</h3>
+                                    <p class="top-statistics__text">
+                                        Від вас не потрібно жодних дій, ви ж не Миколай. Ви отримаєте готовий запакований подарунок. Ми можемо відправити їх самостійно вашим клієнтам.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+
+                    <div class="statistics__bottom bottom-statistics">
+                        <div class="bottom-statistics__items">
+                            <div class="bottom-statistics__item">
+                                <div class="bottom-statistics__number">20 000</div>
+                                <div class="bottom-statistics__text">свічок виготовлено</div>
+                            </div>
+
+                            <div class="bottom-statistics__item">
+                                <div class="bottom-statistics__number">31</div>
+                                <div class="bottom-statistics__text">партнерських шоу-румів</div>
+                            </div>
+
+                            <div class="bottom-statistics__item">
+                                <div class="bottom-statistics__number">15+ </div>
+                                <div class="bottom-statistics__text">великих корпоративних замовлень</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__body">
+                <div class="footer__item">
+                    <ul class="footer__list">
+                        <li class="footer__row">
+                            <h3 class="footer__title lng-footer-title1">КАТЕГОРІЇ</h3>
+                        </li>
+
+                        <li class="footer__row">
+                            <a href="" class="footer__link lng-footer-link1">Свічки соєві</a>
+                        </li>
+
+                        <li class="footer__row">
+                            <a href="" class="footer__link lng-footer-link2">Пасіка</a>
+                        </li>
+
+                        <li class="footer__row">
+                            <a href="" class="footer__link lng-footer-link3">Декор</a>
+                        </li>
+
+                        <li class="footer__row">
+                            <a href="" class="footer__link lng-footer-link4">Подарункові бокси</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="footer__item">
+                    <ul class="footer__list">
+                        <li class="footer__row">
+                            <h3 class="footer__title lng-footer-title2">КОРПОРАТИВНІ ЗАМОВЛЕННЯ</h3>
+                        </li>
+
+                        <li class="footer__row">
+                            <a href="" class="footer__link lng-footer-link5">Безкоштовний бокс</a>
+                        </li>
+
+                        <li class="footer__row">
+                            <a href="" class="footer__link lng-footer-link6">Співпраця</a>
+                        </li>
+
+                        <li class="footer__row">
+                            <a href="" class="footer__link lng-footer-link7">Індивідуальні замовлення</a>
+                        </li>
+
+                        <li class="footer__row">
+                            <a href="" class="footer__link lng-footer-link8">Адреси шоурумів</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__item">
+                    <ul class="footer__list">
+                        <li class="footer__row">
+                            <h3 class="footer__title lng-footer-title3">КОНТАКТИ</h3>
+                        </li>
+
+                        <li class="footer__row">
+                            <a href="" class="footer__link">80600, м.Броди, вул. І.Труша</a>
+                        </li>
+
+                        <li class="footer__row">
+                            <a href="mailto:Lviv.turbota@gmail.com" class="footer__link">Lviv.turbota@gmail.com</a>
+                        </li>
+
+                        <li class="footer__row">
+                            <a href="" class="footer__link">+38 (050) 806 77 89</a>
+                        </li>
+
+                        <li class="footer__row">
+                            <a href="" class="footer__link">Facebook</a>
+                        </li>
+
+                        <li class="footer__row">
+                            <a href="" class="footer__link">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copiryght lng-footer-copiryght">© 2022 Майстерня Турботи. Всі права захищено.</div>
+        </div>
+    </footer>
+    <button class="btn-top"></button>
+</body>
+
+    <script src="./js/simplebar.js"></script>
+    <script src="./libs/modal/modal.js"></script>
+    <script src="./js/magic-line.js"></script>
+    <script src="./js/burger.js"></script>
+    <script src="./js/lang.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/cart.js"></script>
+    <script src="./js/scroll-top.js"></script>
+    <!-- <script src="./js/counter.js"></script> -->
+</html>
