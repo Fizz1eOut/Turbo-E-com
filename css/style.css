@@ -82,6 +82,9 @@
     color: var(--color-black);
     transition: color 0.3s ease-in-out;
 }
+.nav__link--active {
+    color: var(--color-red);
+}
 .nav__list {
     font-weight: 400;
     font-size: 16px;

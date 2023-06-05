@@ -395,6 +395,7 @@ const langArr = {
         "en": "Quantity",
         "ua": "Кількість",
     }, 
+    
     "modal-sum": {
         "ru": "Вместе",
         "en": "Together",
@@ -693,6 +694,11 @@ const langArr = {
         "en": "Catalog >",
         "ua": "Каталог >",
     },
+    "pages-link-corporate": {
+        "ru": "Корпоративные заказы",
+        "en": "Corporate orders",
+        "ua": "Корпоративні замовлення",
+    }, 
     "pages-link-candles": {
         "ru": "Свечи соевые >",
         "en": "Soy candles >",

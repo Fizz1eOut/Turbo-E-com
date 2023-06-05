@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="UA">
 <head>
     <meta charset="UTF-8">
@@ -7,16 +8,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/settings.css">
     <link rel="stylesheet" href="./css/simplebar.css">
     <link rel="stylesheet" href="./libs/modal/modal.css">
+    <link rel="stylesheet" href="./css/contacts.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/sugar-chestnut.css"> 
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    <title>Turbota E-com - Гарбузовий пиріг</title>
+    <title>Turbota E-com - Контакти</title>
 </head>
-
 <body>
     <header class="header">
         <div class="header__container">
@@ -34,6 +33,7 @@
                 <nav class="header__nav nav" data-nav>
                     <span class="nav__line"></span>
                     <ul class="nav__list">
+
                         <li class="nav__item">
                             <a href="./index.html" class="nav__link lng-home">Главная</a>
                             <!-- <button class="nav__link--btn nav__link lng-shop">Магазин</button>
@@ -63,9 +63,9 @@
                         </li>
                         
                       <li class="nav__item"><a href="./сorporate-orders.html" class="nav__link lng-order">Корпоративні замовлення</a></li>
-                      <li class="nav__item"><a href="./contacts.html" class="nav__link lng-contacts">Контакти</a></li>
+                      <li class="nav__item"><a href="./contacts.html" class="nav__link nav__link--active lng-contacts">Контакти</a></li>
 
-                      <li class="nav__item"><a href="#" class="nav__link lng-account">Аккаунт</a></li>
+                      <li class="nav__item"><a href="" class="nav__link lng-account">Аккаунт</a></li>
                     </ul>
                 </nav>
 
@@ -187,239 +187,56 @@
     </header>
 
     <main class="main">
-        <section class="soy-candles">
-            <div class="soy-candles__container">
-                <div class="soy-candles__pages pages">
+        <section class="responsible">
+            <div class="responsible__container">
+                <div class="catalog__pages pages">
                     <div class="pages__items">
                         <div class="pages__item">
                             <a href="./index.html" class="pages__link lng-pages-link-home">Головна ></a>
                         </div>
-            
-                        <div class="pages__item">
-                            <a href="./catalogue.html" class="pages__link lng-pages-link-catalog">Каталог ></a>
-                        </div>
 
                         <div class="pages__item">
-                            <a href="./catalogue.html" class="pages__link lng-pages-link-candles">Свічки соєві ></a>
-                        </div>
-
-                        <div class="pages__item">
-                            <a href="./sugar-chestnut.html" class="pages__link  pages__link--active lng-pages-link-pumpkin">Гарбузовий пиріг</a>
+                            <a href="./сorporate-orders.html" class="pages__link pages__link--active lng-contacts">Контакти</a>
                         </div>
                     </div>
                 </div>
 
-                <ul class="products__body">
-                    <li class="products__item">
-                            <article class="product">
-                                <div class="card">
-                                    <div class="card-slider">
-                                        <div class="card-slider__nav slider-nav">
-                                            <div class="slider-nav__item product__image" tabindex="0"><img class="slider-nav__img" src="./img/porducts/02.png" alt=""></div>
-                                            <div class="slider-nav__item product__image" tabindex="0"><img class="slider-nav__img" src="./img/porducts/02.png" alt=""></div>
-                                            <div class="slider-nav__item product__image" tabindex="0"><img class="slider-nav__img" src="./img/porducts/02.png" alt=""></div>
-                                        </div>
-                                        
-                                        <div class="card-slider__block slider-block">
-                                            <div class="swiper-wrapper">
-                                                <div class="swiper-slide product__image">
-                                                    <img class="slider-nav__img" src="./img/porducts/02.png" alt="">
-                                                </div>
-                                                <div class="swiper-slide product__image">
-                                                    <img class="slider-nav__img" src="./img/porducts/02.png" alt="">
-                                                </div>
-                                                <div class="swiper-slide product__image">
-                                                    <img class="slider-nav__img" src="./img/porducts/02.png" alt="">
-                                                </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                <div class="responsible__body">
+                    <div class="responsible__content">
+                        <h2 class="responsible__title title">Особисто відповідаємо за ваші замовлення</h2>
+                        <p class="responsible__text">Ви можете написати чи зателефонувати нам напряму. Ми особисто відповідаємо за весь процес вашого замовлення.</p>
+                        <p class="responsible__text">Якщо виникають питання чи негаразди - ми особисто Вам допоможемо </p>
+                        <button class="responsible__button button">ОТРИМАТИ БОКС</button>
+                    </div>
 
-                                <!-- <div class="product__image">
-                                    <img src="./img/porducts/15.png" alt="">
-                                </div> -->
-
-                                <div class="product__content ">
-                                    <h2 class="product__title">
-                                        <a href="" class="lng-product-title2"><span>Гарбузовий пиріг</span></a>
-                                    </h2>
-                                    <div class="product__availability lng-product-availability">Є в наявності</div>
-
-                                    <p class="product__text lng-product-text1">
-                                        Аромат Каштану на ярмарку. Витончена суміш цитрусових, мускусу та землістих відтінків бергамоту та амбрі. Аромат бодрий та заспокійливий. Дерев'яний гніт, що потріскує при горінні, мов камін, та надзвичайний аромат, що наповнює всю кімнату.
-                                    </p>
-
-                                    <div class="product__item item-product">
-                                        <h3 class="item-product__title lng-item-product-title1">Доступні об’єми</h3>
-                                        <div class="item-product__text lng-item-product-text1">250 мл</div>
-                                    </div>
-
-                                    <div class="product__item item-product">
-                                        <h3 class="item-product__title lng-item-product-title2">Тип кришки</h3>
-                                        <div class="item-product__text lng-item-product-text2">Дерев’яна</div>
-                                    </div>
-
-                                    <div class="product__price product-price">
-                                        <span class="product-price__current">400 ₴</span>
-                                    </div>
-                                    
-                                    <div class="product__item product__item-bottom">
-                                        <div class="items counter-wrapper">
-                                            <div class="items__control" data-action="minus">-</div>
-                                            <div class="items__current" data-counter>1</div>
-                                            <div class="items__control" data-action="plus">+</div>
-                                        </div>
-    
-                                        <button class="product__btn button lng-product-bottom-button">ДОДАТИ ДО КОШИКА</button>
-                                    </div>
-                                </div>
-                            </article>
-                    </li>
-                </ul>
-
-                <ul class="accordion__list">
-                    <li class="accordion">
-                        <button class="accordion__control" aria-expanded="false">
-                            <h3 class="accordion__title lng-accordion-title1">Опис</h3>
-                            <span class="accordion__icon"></span>
-                        </button>
-                        <div class="accordion__content" aria-hidden="true">
-                            <p class="accordion__text lng-accordion-text1">
-                                Витончена суміш цитрусових, мускусу та землістих відтінків бергамоту та амбрі. Аромат бодрий та заспокійливий. Дерев'яний гніт, що потріскує при горінні, мов камін, та надзвичайний аромат, що наповнює всю кімнату.
-                            </p>
-
-                            <p class="accordion__version lng-accordion-version1">
-                                — 30 годин горіння
-                            
-                            <p class="accordion__version lng-accordion-version2">
-                                — Дерев’яний гніт та кришечка
-                            </p>
-
-                            <p class="accordion__version lng-accordion-version3">
-                                — Надзвичайна аромавіддача
-                            </p>
-
-                            <p class="accordion__version lng-accordion-version4">
-                                — 100% натуральний соєвий віск, не парафін
-                            </p>
+                    <div class="responsible__image">
+                        <div class="responsible__picture">
+                            <img src="./img/responsible/01.png" alt="">
                         </div>
-                    </li>
-                    <li class="accordion">
-                        <button class="accordion__control" aria-expanded="false">
-                            <h3 class="accordion__title lng-accordion-title2">Відгуки (0)</h3>
-                            <span class="accordion__icon"></span>
-                        </button>
-                        <div class="accordion__content response" aria-hidden="true">
-                            <form action="" class="response-form">
-                                <h3 class="response-form__title lng-response-form-title">Залиште ваш відгук</h3>
 
-                                <div class="response-form__item">
-                                    <input class="response-form__input" type="name" placeholder="Name">
-                                    <label class="response-form__label" for=""></label>
-                                </div>
-
-                                <div class="response-form__item">
-                                    <input class="response-form__input" type="email" placeholder="Email">
-                                    <label class="response-form__label" for=""></label>
-                                </div>
-
-                                <div class="response-form__item">
-                                    <textarea class="response-form__textarea" placeholder="Your review..."></textarea>
-                                </div>
-
-                                <div class="checkbox__item">
-                                    <input class="checkbox__input" type="checkbox" id="check1">
-                                    <label class="checkbox__label" for="check1"><span class="lng-response-form-label">Зберегти моє ім'я, e-mail, та адресу сайту в цьому браузері для моїх подальших коментарів.</span></label>
-                                </div>
-
-                                <div class="response-form__item">
-                                    <button class="response-form__button button lng-response-form-button">Надіслати</button>
-                                </div>
-                            </form>
+                        <div class="responsible__picture responsible__picture--absolute">
+                            <img src="./img/responsible/02.png" alt="">
                         </div>
-                    </li>
-                    <li class="accordion">
-                        <button class="accordion__control" aria-expanded="false">
-                            <h3 class="accordion__title lng-accordion-title3">Як використовувати</h3>
-                            <span class="accordion__icon"></span>
-                        </button>
-                        <div class="accordion__content" aria-hidden="true">
-                            <p class="accordion__text lng-accordion-text2">
-                                Завжди дайте свічці догоріти до країв, щоб не утворити кратер, свічка повинна горіти не довше, аніж 4 години. На усі свічки діє гарантія, при виникненні будь-яких питань, звертайтесь до нас.
-                            </p>
-
-                            <div class="accordion__link">
-                                <a href="mailto:lviv.turbota@gmail.com" class="accordion__email">lviv.turbota@gmail.com</a>
-                            </div>
-
-                            <div class="accordion__link">
-                                <a href="" class="accordion__link accordion__number">+380508067789</a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section class="interesting">
-            <div class="interesting__container">
-                <div class="interesting__row row">
-                    <div class="row__content">
-                        <div class="row__text lng-row-text3">ДЛЯ ТВОГО ЗАТИШКУ</div>
-                        <h2 class="row__title title lng-row-title3">ТАКОЖ БУДЕ ЦІКАВО</h2>
+        <section class="contacts">
+            <div class="contacts__container">
+                <div class="contacts__body">
+                    <div class="contacts__content">
+                        <h2 class="contacts__title">ВІДКРИТІ ДО СПІВПРАЦІ</h2>
+                        <h3 class="contacts__subtitle title">НАШІ КОНТАКТИ</h3>
+                        <div class="contacts__address">80600, м.Броди, вул. І.Труша</div>
+                        <a href="mailto:lviv.turbota@gmail.com" class="contacts__email">lviv.turbota@gmail.com</a>
+                        <div class="contacts__number">+380508067789</div>
                     </div>
-                    
-                    <div class="row__item">
-                        <a href="./catalogue.html" class="row__button button lng-row-button3">До каталогу 
-                            <span>
-                                <svg class="arrow--red" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1.66699 10.5892H16.0778L9.82783 16.8392L10.417 17.4284L17.6728 10.1726L10.417 2.91675L9.82783 3.50591L16.0778 9.75591H1.66699V10.5892Z" fill="#A74F41"/>
-                                </svg>
-                            </span>
-                        </a>
+
+                    <div class="contacts__image">
+                        <img src="./img/contacts/ukraine.png" alt="">
                     </div>
                 </div>
-
-                <div class="interesting__body">
-                    <a href="#" class="interesting__item">
-                        <div class="interesting__image">
-                            <img src="./img/interesting/01.png" alt="">
-                        </div>
-                        <div class="interesting__type lng-interesting-type1">Свічки соєві </div>
-                        <h3 class="interesting__title lng-interesting-title1">Бузок і Тюльпани</h3>
-                        <div class="interesting__price">₴ 440</div>
-                    </a>
-
-                    <a href="#" class="interesting__item">
-                        <div class="interesting__image">
-                            <img src="./img/interesting/02.png" alt="">
-                        </div>
-                        <div class="interesting__type lng-interesting-type2">Свічки соєві </div>
-                        <h3 class="interesting__title lng-interesting-title2">Львівська чоколяда</h3>
-                        <div class="interesting__price">₴ 440</div>
-                    </a>
-
-                    <a href="#" class="interesting__item">
-                        <div class="interesting__image">
-                            <img src="./img/interesting/03.png" alt="">
-                        </div>
-                        <div class="interesting__type lng-interesting-type3">Свічки соєві </div>
-                        <h3 class="interesting__title lng-interesting-title3">Сніданок у Львові</h3>
-                        <div class="interesting__price">₴ 440</div>
-                    </a>
-
-                    <a href="#" class="interesting__item">
-                        <div class="interesting__image">
-                            <img src="./img/interesting/04.png" alt="">
-                        </div>
-                        <div class="interesting__type lng-interesting-type4">Свічки соєві </div>
-                        <h3 class="interesting__title lng-interesting-title4">Лісова пісня</h3>
-                        <div class="interesting__price">₴ 440</div>
-                    </a>
-                </div>
-
-                
             </div>
         </section>
     </main>
@@ -517,8 +334,5 @@
 <script src="./js/app.js"></script>
 <script src="./js/cart.js"></script>
 <script src="./js/scroll-top.js"></script>
-<script src="./js/counter.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-<script src="./js/slider.js"></script>
-<script src="./js/accordion-anim.js"></script>
+<!-- <script src="./js/counter.js"></script> -->
 </html>
