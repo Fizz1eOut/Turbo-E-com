@@ -936,6 +936,76 @@ const langArr = {
         "en": "Fallen leaves",
         "ua": "Опале листя",
     },
+    "responsible-title": {
+        "ru": "Лично отвечаем за ваши заказы",
+        "en": "We are personally responsible for your orders",
+        "ua": "Особисто відповідаємо за ваші замовлення",
+    },
+    "responsible-text1": {
+        "ru": "Вы можете написать или позвонить нам напрямую. Мы лично отвечаем за весь процесс вашего заказа.",
+        "en": "You can write or call us directly. We are personally responsible for the entire process of your order.",
+        "ua": "Ви можете написати чи зателефонувати нам напряму. Ми особисто відповідаємо за весь процес вашого замовлення.",
+    },
+    "responsible-text2": {
+        "ru": "Если возникают вопросы или проблемы - мы лично Вам поможем.",
+        "en": "If you have questions or problems, we will personally help you.",
+        "ua": "Якщо виникають питання чи негаразди - ми особисто Вам допоможемо.",
+    },
+    "contacts-title": {
+        "ru": "Тыквенный пирог",
+        "en": "Pumpkin pie",
+        "ua": "Гарбузовий пиріг",
+    },
+    "contacts-subtitle": {
+        "ru": "НАШИ КОНТАКТЫ",
+        "en": "OUR CONTACTS",
+        "ua": "НАШІ КОНТАКТИ",
+    },
+    "your-city-title": {
+        "ru": "НАЙДИ НАС",
+        "en": "FIND US",
+        "ua": "ЗНАЙДИ НАС",
+    },
+    "your-city-subtitle": {
+        "ru": "В ТВОЕМ ГОРОДЕ",
+        "en": "IN YOUR CITY",
+        "ua": "У ТВОЄМУ МІСТІ",
+    },
+    "Lviv": {
+        "ru": "Львов",
+        "en": "Lviv",
+        "ua": "Львів",
+    },
+    "Ivano-Frankivsk": {
+        "ru": "Ивано-Франковск",
+        "en": "Ivano-Frankivsk",
+        "ua": "Івано-Франківськ",
+    },
+    "Kyiv": {
+        "ru": "Киев",
+        "en": "Kyiv",
+        "ua": "Київ",
+    },
+    "suport-title": {
+        "ru": "ПОДДЕРЖКА",
+        "en": "SUPPORT",
+        "ua": "ПІДТРИМКА",
+    },
+    "suport-subtitle": {
+        "ru": "МЫ ВСЕГДА РАДЫ ВАШИМ ОБРАЩЕНИЯМ",
+        "en": "WE ARE ALWAYS GLAD FOR YOUR REQUESTS",
+        "ua": "МИ ЗАВЖДИ РАДІ ВАШИМ ЗВЕРНЕННЯМ",
+    },
+    "suport-text": {
+        "ru": "Вы можете обращаться к нам о сотрудничестве, проблемах или просто пожелать нам хорошего дня!",
+        "en": "You can contact us about cooperation, problems or just wish us a good day!",
+        "ua": "Ви можете звертатись до нас щодо співпраці, проблем, чи просто побажати нам гарного дня!",
+    },
+    "support-button": {
+        "ru": "Отправить",
+        "en": "Send",
+        "ua": "Надіслати",
+    },
     "": {
         "ru": "Тыквенный пирог",
         "en": "Pumpkin pie",
